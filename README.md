@@ -1,2 +1,5 @@
 # uptotek-frontend
-Et sted hvor man kan samle programmører i et kartotek og søge udfra deres skills, så man kan finde en at lave projekter med, eller en man vil "købe" til sit projekt
+To make this project work, fork it, pull it. Then install nodejs + NPM + Bower. Then run the follow commands
+npm install && bower install after that you run grunt serve
+
+If you don't know anything about npm, bower or grunt. Please contact Stenkilde

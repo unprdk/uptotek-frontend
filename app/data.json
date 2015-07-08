@@ -1,0 +1,77 @@
+[
+	{
+		"_id": "559bf71aeb3bc5eb1f9e39af",
+		"firstname": "Kerr",
+		"lastname": "Caldwell",
+		"picture": "http://placehold.it/360x360",
+		"age": 20,
+		"skills": [
+			"frontend",
+			"html",
+			"css",
+			"javascript",
+			"angular"
+		]
+	},
+	{
+		"_id": "559bf71a5500bff16614bb9f",
+		"firstname": "Glenna",
+		"lastname": "Lawson",
+		"picture": "http://placehold.it/360x360",
+		"age": 38,
+		"skills": [
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	{
+		"_id": "559bf71abf28f9bc4f2b46e0",
+		"firstname": "Diaz",
+		"lastname": "Patrick",
+		"picture": "http://placehold.it/360x360",
+		"age": 27,
+		"skills": [
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	{
+		"_id": "559bf71a3c2eab7619537d34",
+		"firstname": "Whitney",
+		"lastname": "Kemp",
+		"picture": "http://placehold.it/360x360",
+		"age": 26,
+		"skills": [
+			null,
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		]
+	},
+	{
+		"_id": "559bf71a7702ed345417b93e",
+		"firstname": "Perez",
+		"lastname": "Walker",
+		"picture": "http://placehold.it/360x360",
+		"age": 28,
+		"skills": [
+			null,
+			null,
+			null,
+			null,
+			null,
+			null
+		]
+	}
+]
