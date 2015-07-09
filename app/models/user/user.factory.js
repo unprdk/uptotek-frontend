@@ -6,7 +6,7 @@
 		.factory('UserFactory', UserFactory);
 
 	/* @ngInject */
-	function UserFactory() {
+	function UserFactory($http, $q) {
 
 		var service = {
 			getUsers: getUsers
@@ -25,7 +25,6 @@
 			storesPromise.then(function(results) {
 
 				deferred.resolve(results);
-
 			}, function(err) {
 				deferred.reject(err);
 			});
@@ -33,7 +32,6 @@
 			return deferred.promise;
 		}
 
-		//function method() { };
-	};
+	}
 
 })();
