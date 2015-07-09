@@ -11,7 +11,7 @@
 	 */
 	angular
 		.module('upkartotek', [
-			
+
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -37,6 +37,8 @@
     'application',
     'index',
   ,
+'user',
+'userfactory',
 			/* ---> Do not delete this comment (ngImports) <--- */
 	]);
 })();
