@@ -19,6 +19,7 @@
 			var deferred = $q.defer();
 
 			var url = 'data.json';
+			//var url = 'http://cbladt.dk/api/users';
 
 			var storesPromise = $http.get(url);
 

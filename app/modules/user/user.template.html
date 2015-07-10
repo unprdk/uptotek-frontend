@@ -1,3 +1,13 @@
-<div ng-repeat="users in user.data">
-	{{ users.firstname }} {{ users.lastname }} {{ users.age }}
+<div class="user__card" <div ng-repeat="users in user.data">
+	<div class="user__card--front">
+		<div class="user__card--header">
+			{{ users.firstname }} {{ users.lastname }} {{ users.age }} <a class="right" href="#"> > </a>
+		</div>
+		<img src="{{ users.picture }}" alt=""/>
+	</div>
+	<div class="user__card--back">
+		<p ng-repeat="powers in users.skills track by $index">
+			{{powers}}
+		</p>
+	</div>
 </div>

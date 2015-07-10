@@ -1,0 +1,37 @@
+.user__card {
+	position: relative;
+	width: 300px;
+	height: 345px;
+	background: black;
+	&.is-open {
+		.user__card--back {
+			transition: all .3s ease-in-out;
+			opacity: 1;
+			transform: translateX(300px) scale(1);
+		}
+	}
+	&--header {
+		width: 300px;
+		padding-left: 10px;
+		padding-right: 10px;
+		line-height: 45px;
+		color: #fff;
+		background: black;
+	}
+	&--front, &--back {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	&--front {
+		z-index: 2;
+	}
+	&--back {
+		width: 300px;
+		height: 345px;
+		overflow: hidden;
+		background-color: tomato;
+		transform: scale(0.8);
+		opacity: 0;
+	}
+}

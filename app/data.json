@@ -3,6 +3,7 @@
 		"_id": "559bf71aeb3bc5eb1f9e39af",
 		"firstname": "Kerr",
 		"lastname": "Caldwell",
+		"email": "hello@stenkil.de",
 		"picture": "http://placehold.it/360x360",
 		"age": 20,
 		"skills": [
